@@ -1,0 +1,16 @@
+.col{
+    background-color: aqua;
+    height: 100px;
+    margin: 1px;
+}
+.container-md{
+    background-color: rgb(10, 38, 80);
+}
+/* .intro_info{
+    background-color: rgb(10, 38, 80);
+    /* height: 400px; */
+}
+.intro-img{
+    background-color: rgb(10, 38, 80);
+    /* height: 400px; */
+} */
