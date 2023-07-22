@@ -1,0 +1,184 @@
+body{
+    /* background-color: blue; */
+    background: #066acd;
+    font-family: sans-serif;
+    
+}
+header h1{
+    color: #066acd;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color:white;
+    /* border: 500px; */
+    /* padding-top: 0; */
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.list-container{
+    /* width: 50%;
+    height: 100px;
+    background: white; */
+    width: 100%;
+    max-width: 470px;
+    background: white;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    /* height: 100px; */
+    padding: 40px 30px 70px;
+    
+}
+
+/* #search-bar{
+    background-color: white;
+} */
+
+#input-text{
+    background-color: white;
+    padding: 10px 200px 10px 10px;
+    border-color: #066acd;
+    border-radius: 5px;
+}
+.row button{
+    background-color: #066acd;
+    padding: 10px 20px 10px;
+    /* padding-left: 15px; */
+    user-select: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    /* margin-left: 300px; */
+    margin-left: 10px;
+}
+
+.task-body li{
+    list-style: none;
+    display: flex;
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 7px;
+    margin: 2px 0px 2px;
+    align-self: flex-start;
+    cursor: pointer;
+}
+
+/* .task img{
+    background: transparent;
+    border-radius: 10px;
+    width: 10px;
+    margin-left: 100px;
+    padding-left: 10px
+    padding: 10px;
+} */
+
+.task-body{
+    padding-left: 0px;
+}
+
+/* .task button{
+    background-color: #066acd;
+    padding: 5px 20px 5px;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 5px;
+    color: white;
+    margin-left: 5px;
+    margin-bottom: 0px;
+} */
+
+.edit{
+    background-color: #066acd;
+    padding: 5px 20px 5px;
+    cursor: pointer;
+    height: 30px;
+    user-select: none;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 0px;
+}
+.delete{
+    background-color: #066acd;
+    padding: 5px 10px 5px;
+    cursor: pointer;
+    height: 30px;
+    user-select: none;
+    border-radius: 5px;
+    color: white;
+    margin-left: 5px;
+}
+
+.task span{
+    margin-top: 5px;
+    /* margin-right: 10px; */
+    display: inline-block;
+    width: 100%;
+    max-width: 318px;
+    /* margin-right: 20%; */
+    overflow:auto; /* or overflow: hidden; */
+    max-height: 100%; /* or any desired value */
+}
+
+    /* margin-left: 190px; */
+
+    /* .edit {
+        background-color: #066acd;
+        padding: 5px 20px;
+        cursor: pointer;
+        height: 30px;
+        user-select: none;
+        border-radius: 5px;
+        color: white;
+        margin-left: 10px;
+        margin-bottom: 0;
+        position: absolute;
+        right:220px
+      }
+      
+      .delete {
+        background-color: #066acd;
+        padding: 5px 10px;
+        cursor: pointer;
+        height: 30px;
+        user-select: none;
+        border-radius: 5px;
+        color: white;
+        margin-left: 5px;
+        position: absolute;
+        right: 10px;
+      }
+      
+      .task span {
+        display: inline-block;
+        margin-right: 85px;
+        
+      } */
+
+      @media (max-width: 480px) {
+        .list-container {
+          padding: 10px;
+        }
+      }
+      
+      /* For medium screens */
+      @media (min-width: 481px) and (max-width: 768px) {
+        .list-container {
+          padding: 20px;
+        }
+      }
+      
+      /* For large screens */
+      @media (min-width: 769px) {
+        .list-container {
+          padding: 40px;
+        }
+      }
+
+      .checked {
+        text-decoration: line-through;
+        color: gray;
+      }
