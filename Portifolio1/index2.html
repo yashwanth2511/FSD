@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+
+<canvas class="vanta-canvas" width="1318" height="942" style="position: absolute; z-index: 0; top: 0px; left: 0px; width: 1055px; height: 754px;"></canvas>
+
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Projects">Projects</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+</header>  
+<main class="my-5 about">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7">
+                <h3>Hello my name is</h3>
+                <h1 style="font-family: Fugaz One;
+                letter-spacing: .08em;
+                color: #6c63ff;
+                text-shadow: 0 4px 4px rgba(0,0,0,.25), 2.2px 2px 2px hsla(0,0%,100%,.25);">YASHWANTH</h1>
+                <h3>I am a developer</h3>
+            </div>
+            <div class="col-md-5">
+                <img src="https://prudhvisuraaj.me/img/illustration.a9e79dce.svg" alt="">
+            </div>
+        </div>
+    </div>
+</main>  
+     <h2>About Me <hr></h2>
+    <!-- <p>I am a self-taught developer from India, with a particular focus on mobile app development using the Flutter framework.I am an undergraduate in Computer Science, and I am always looking to expand my skills and knowledge by learning new tools and frameworks.Outside of programming, I have various interests such as music, design</p> --> 
+    <section>
+        <div class="row">
+        <div class="col-md-6">
+            <p>I am a self-taught developer from India, with a particular focus on data science and machine learning .I am an undergraduate in Computer Science, and I am always looking to expand my skills and knowledge by learning new tools and frameworks.Outside of programming, I have various interests such as music and anime. I am a team player and thrive in collaborative projects.</p>
+        </div>
+        <div class="col-md-6" >
+            <img src="https://prudhvisuraaj.me/img/book_shelf.f853efd9.svg" alt="" class="rounded float-end" style="padding-right: 20px;">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <img src="https://prudhvisuraaj.me/img/freelancer.16bf6022.svg" alt="">
+        </div>
+    </div>
+    </section>
+    <div class="row">
+        <div class="col">
+            <h2 class="headings">Projects</h2>
+        </div>
+    </div>
+    <section class="projects">
+        <div class="card-group">
+            <div class="card">
+              <img src="https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/15/e8/a2/15e8a24f-6ab4-761a-140d-e88cccafa45a/AppIcon-0-0-1x_U007emarketing-0-0-0-6-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/1200x600wa.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Claculator App</h5>
+                <p class="card-text">This simple claculator helped many students solve complex calculations make their life much easier than ever.</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="data:image/png;base64,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" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Clock App</h5>
+                <p class="card-text">This clock app helps us in knowing the current time and also keeps track of our daily activities and helps us maintain our punchuality.</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="https://static1.srcdn.com/wordpress/wp-content/uploads/2022/08/A-split-image-of-the-Tweetbot-logo-and-the-Twitter-app.jpg"  class="card-img-top " alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Quotes generator </h5>
+                <p class="card-text">this app helps us in generating quotes from twitter with the help of API.</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+    </section>
+    <section classs="contact">
+        <div class="row">
+            <div class="col">
+                <h2 class="headings">Contact</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h3 style="padding-left: 90px;">Name</h3>
+                <p style="padding-left: 90px;">Yashwanth</p>
+                <br>
+                <h3 style="padding-left: 90px;">Email</h3>
+                <p style="padding-left: 90px;">yashwanthkarimisetti@gmail.com</p>
+                <br>
+            </div>
+            <div class="col-md-6">
+                <form>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">enter your message</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3 form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
